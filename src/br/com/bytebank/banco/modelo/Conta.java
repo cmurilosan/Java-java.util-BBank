@@ -3,8 +3,6 @@ package br.com.bytebank.banco.modelo;
 
 /**
  * Classe representa a moldura de uma conta
- * 
- * @author Nico Steppat
  *
  */
 public abstract class Conta extends Object {
