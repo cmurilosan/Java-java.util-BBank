@@ -1,16 +1,18 @@
 package br.com.bytebank.banco.util;
 
-import br.com.bytebank.banco.modelo.Cliente;
 import br.com.bytebank.banco.modelo.Conta;
 import br.com.bytebank.banco.modelo.ContaCorrente;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 
-public class Teste {
+public class TesteArrayList {
 
     public static void main(String[] args) {
 
-        ArrayList<Conta> lista = new ArrayList<Conta>();
+        List<Conta> lista = new ArrayList<Conta>();
+        ArrayList<Conta> nomes = new ArrayList<Conta>();
 
         Conta cc = new ContaCorrente(22,11);
         lista.add(cc);
@@ -25,6 +27,7 @@ public class Teste {
         System.out.println(ref.getNumero());
 
         lista.remove(0);
+
         System.out.println("Tamanho: " + lista.size());
 
         Conta cc3 = new ContaCorrente(33,311);
